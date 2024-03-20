@@ -1,12 +1,12 @@
 group:
   - multiple_choice
 task: hellaswag
-dataset_path: hellaswag
-dataset_name: null
+# dataset_path: hellaswag
+dataset_name: Rowan/hellaswag
 output_type: multiple_choice
-training_split: train
-validation_split: validation
-test_split: null
+# training_split: train
+# validation_split: validation
+test_split: test
 process_docs: !function utils.process_docs
 doc_to_text: "{{query}}"
 doc_to_target: "{{label}}"
